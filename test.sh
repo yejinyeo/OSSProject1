@@ -23,10 +23,10 @@ echo "--------------------------"
 while true; do
     echo -n "Enter your choice [1-9]: "
     read number
-    echo
 
     case $number in
         1)
+	    echo
             echo -n "Please enter the 'movie id’(1~1682): "
             read movie_id
 	    echo
@@ -35,6 +35,7 @@ while true; do
             ;;
 	
 	2)
+	    echo
             echo -n "Do you want to get the data of ‘action’ genre movies from 'u.item’?(y/n): "
             read response
 	    echo
@@ -45,6 +46,7 @@ while true; do
             ;;
 
         3)
+	    echo
             echo -n "Please enter the 'movie id’(1~1682): "
             read movie_id
 	    echo
@@ -54,6 +56,7 @@ while true; do
             ;;
 
 	4)
+	    echo
             echo -n "Do you want to delete the ‘IMDb URL’ from ‘u.item’?(y/n): "
             read response
 	    echo
@@ -64,6 +67,7 @@ while true; do
             ;;
 
 	5)
+	    echo
             echo -n "Do you want to get the data about users from ‘u.user’?(y/n): "
             read response
 	    echo
@@ -74,6 +78,7 @@ while true; do
             ;;
 
 	6)
+	    echo
             echo -n "Do you want to Modify the format of ‘release data’ in ‘u.item’?(y/n): "
             read response
 	    echo
@@ -89,6 +94,7 @@ while true; do
             ;;	
 
 	7)
+	    echo
             echo -n "Please enter the ‘user id’(1~943): "
             read user_id
 	    echo
@@ -105,6 +111,7 @@ while true; do
 
 
 	 8)
+	    echo
             echo -n "Do you want to get the average 'rating' of movies rated by users with 'age' between 20 and 29 and 'occupation' as 'programmer'?(y/n): "
             read response
 	    echo
